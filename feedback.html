@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Feedback</title>
+    </head>
+    <body>    
+        <table width="100%" cellpadding="1" cellspacing="5" align="left" bgcolor="#FFBBBB">
+            <tr>
+                <td width="20%" rowspan="3"></td>
+            </tr>    
+            <tr>
+                <td>
+                <div style="background-color:#FFBBBB">
+                    <b> <font color="FF0000">FEEDBACK</font></b></br></br>
+                    <form name="FeedbackForm" method="post" action="ThankYou.html" >
+             
+                        <table>
+                            <tr>
+                                <td width="40%" style="vertical-align:top">
+                                 <label for="CaseID"><b>CaseID:</b></label>
+                                </td>
+                                <td>
+                                    <input type="text" name="CaseID" size="10" placeholder="Enter CaseID"> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align:top">
+                                    <label for="Subject"> <b>Subject:<font color="FF0000">*</font></b></label>
+                                </td>
+                                <td>
+                                    <input type="text" name="Subject" size="30" placeholder="Enter Subject (required)">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align:top">
+                                    <label for="Comment"> <b>Comment:</b></label>
+                                </td>
+                                <td>
+                                    <textarea name="Comment" rows="8">Enter Comment</textarea> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align:top">
+                                    <label for="Importance"> <b>Importance:</b></label>
+                                </td>
+                                <td>
+                                    <input type="radio" name="Importance" value="High">
+                                    <label for="High">High</label><br> 
+                                    <input type="radio" name="Importance" value="Medium">
+                                    <label for="Medium">Medium</label><br>
+                                    <input type="radio" name="Importance" value="Low" checked="checked">
+                                    <label for="Low">Low</label><br> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align:top">
+                                   
+                                </td>
+                                <td>
+                                    <input type="submit" name="Submit" value="Submit">
+                                </td>
+                            </tr>
+                        </table>      
+                    </form>
+                </div>
+                </td>        
+            </tr> 
+        </table>   
+    </body>
+</html>
